@@ -1,0 +1,6 @@
+@Readiness.Api_HostAddress = http://localhost:5036
+
+GET {{Readiness.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

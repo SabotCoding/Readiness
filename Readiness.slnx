@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Readiness.Api/Readiness.Api.csproj" />
+    <Project Path="src/Readiness.Core/Readiness.Core.csproj" />
+    <Project Path="src/Readiness.Infrastructure/Readiness.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Readiness.Tests/Readiness.Tests.csproj" />
+  </Folder>
+</Solution>
