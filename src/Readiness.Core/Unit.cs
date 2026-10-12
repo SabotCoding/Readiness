@@ -20,7 +20,7 @@ namespace Readiness.Core
         public Unit? ParentUnit { get; set; }                 // Loaded by EF Core from ParentUnitId
         public List<Unit> ChildUnits { get; set; } = new();   // Filled by EF Core from each child's ParentUnitId
 
-        public List<Soldier> Soldiers { get; set; } = new(); //// Filled in by EF Core from each UIC; never set this by hand
+        public List<Soldier> Soldiers { get; set; } = new(); //// Filled in by EF Core from each unit; never set this by hand
 
     }
 
