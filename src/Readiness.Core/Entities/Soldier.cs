@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Readiness.Core
+namespace Readiness.Core.Entities
 {
     public class Soldier
     {
@@ -20,7 +20,7 @@ namespace Readiness.Core
 
         public int UnitId { get; set; } // Unique identifier for the soldier's unit
 
-        public Unit Unit { get; set; } = null!;
+         public Unit Unit { get; set; } = null!;
 
         public List<CompletionRecord> CompletionRecords { get; set; } = new(); // List of completion records for the soldier
 

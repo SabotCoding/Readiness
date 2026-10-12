@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Readiness.Core
+namespace Readiness.Core.Entities
 {
     public class RequirementType
     {
